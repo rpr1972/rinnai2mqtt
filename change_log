@@ -10,6 +10,6 @@
 
 1.1.3
 
-* Added HEALTh_CHECK to the container.
+* Added HEALTH_CHECK to the container.
 * Sensors that never have zero values (last gas and water use, for example) now report the last valid value instead of zero
   when the API returns error.

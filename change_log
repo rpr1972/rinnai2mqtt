@@ -1,3 +1,8 @@
+1.2.1
+
+* Added option to disable check for updates (See documentation on docker hub for details).
+* Better treatment of errors triggered by the update verification thread.
+
 1.2.0
 
 * Added sensor for displaying errors reported by the device (same error code shown in device display).

@@ -1,3 +1,11 @@
+1.3.0
+
+* Code refactoring for better handling background tasks.
+* Code refactoring in the update check function.
+* Small change in how errors collected from device are returned to HA.
+* Change the way MQTT discovery messages are sent to HA, to avoid "unavailable" state after HA restarts.
+* Change the way MQTT polling is made, to provide better response time in message processing and also in case of program termination.
+
 1.2.1
 
 * Added option to disable check for updates (See documentation on docker hub for details).

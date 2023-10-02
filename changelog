@@ -1,3 +1,8 @@
+1.3.2
+
+* Corrected mapping for values reported by the device, which are used to define the mode (heat, off).
+* The updater process now reports even when there are no updates available (just to prove that it is alive).
+
 1.3.1
 
 * Small code refactoring in the function that processes messages sent to HA.

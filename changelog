@@ -1,3 +1,10 @@
+1.3.3
+
+* Change in the routine that retrieves last usage statistics from the device, to adjust values that are the same as the previous ones.
+  This is because Home Assistant does not report a new value when it is equal to the previous one. So, to overcome this behavior, repeated
+  values are subtracted a little bit: by 1 for "last duration", by 1.0 for "last water usage" and by 10.0 for "last gas usage". The amount
+  changed is almost negligible, assuming the likelihood of having the exact same values in subsequent utilizations.
+
 1.3.2
 
 * Corrected mapping for values reported by the device, which are used to define the mode (heat, off).

@@ -1,3 +1,8 @@
+1.3.4
+
+* Improvements in acquiring one specific mutex for getting results from the device.
+* In the updater thread, removes all newline chars when retrieving data from github.
+
 1.3.3
 
 * Change in the routine that retrieves last usage statistics from the device, to adjust values that are the same as the previous ones.

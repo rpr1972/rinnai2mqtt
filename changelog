@@ -1,3 +1,7 @@
+1.3.6
+
+* Included two variables to authenticate with the MQTT server. See the docker hub documentation for details.
+
 1.3.5
 
 * Upgraded Rust version to 1.73.0.

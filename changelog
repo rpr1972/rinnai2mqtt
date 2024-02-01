@@ -1,3 +1,11 @@
+1.4.1
+
+* Small code refactoring in some source files.
+* Change the way the application connects to MQTT server on startup. Now, it retries indefinitely until the connection succeeds.
+  This behaviour seems to be better for docker apps that depend on an MQTT server running on another container, since the order of
+  startup of containers may cause this integration to fail and exit on the first try. In scenarios where Home Assistant and other
+  integrations run in docker, this behaviour makes sense when the whole machine holding the containers is rebooted, for example.
+
 1.4.0
 
 * Major refactoring of MQTT client code, to optimize resources and to be more efficient.

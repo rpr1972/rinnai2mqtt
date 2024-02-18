@@ -1,3 +1,8 @@
+1.4.2
+
+* Included two new environment variables, DEVICE_MIN_TEMP and DEVICE_MAX_TEMP, to hint Home Assistant about the device's operating temperature range.
+  See the docker hub documentation for details.
+
 1.4.1
 
 * Small code refactoring in some source files.

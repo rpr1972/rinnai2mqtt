@@ -1,3 +1,11 @@
+2.0.0
+
+* Upgraded Rust version to 1.79.0.
+* Replaced MQTT client library for Paho MQTT.
+* Created two new sensors for Home Assistant. See the docker hub documentation for details.
+* Added support for SQLite, in order to store data neeeded for the new sensors.
+* Some general code refactoring.
+
 1.4.2
 
 * Included two new environment variables, DEVICE_MIN_TEMP and DEVICE_MAX_TEMP, to hint Home Assistant about the device's operating temperature range.

@@ -1,3 +1,7 @@
+2.0.1
+
+* Changed the client ID reported to the MQTT server.
+
 2.0.0
 
 * Upgraded Rust version to 1.79.0.

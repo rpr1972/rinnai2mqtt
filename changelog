@@ -1,3 +1,9 @@
+2.0.3
+
+* Changed the retain flag for the new "Total gas usage" and "Total water usage" sensors, so that they are reported correctly when Home Assistant restarts.
+  Previously, the value reported by the MQTT server to Home Assistant after a reboot was the value recorded when the Rinnai2mqtt plugin first connected to
+  the MQTT server, causing incorrect calculations in the "Energy" dashboard.
+
 2.0.2
 
 * Added more debug logging entry points.

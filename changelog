@@ -1,3 +1,9 @@
+2.0.4
+
+* Upgraded Rust version to 1.81.0.
+* Corrected two bugs caused by corner cases, where incorrect values for "Total gas usage" and "Total water usage" could be sent to Home Assistant.
+* Added more debug logging entry points.
+
 2.0.3
 
 * Changed the retain flag for the new "Total gas usage" and "Total water usage" sensors, so that they are reported correctly when Home Assistant restarts.

@@ -1,3 +1,9 @@
+2.0.5
+
+* Upgraded Rust version to 1.82.0.
+* Upgraded some libraries.
+* Created a "multiarch" image for docker, containing both AMD64 and ARM64v8.
+
 2.0.4
 
 * Upgraded Rust version to 1.81.0.

@@ -2,12 +2,12 @@ name: "Rinnai2MQTT"
 version: "2.0.5"
 slug: "rinnai2mqtt"
 description: "Integrates Rinnai water heaters produced in Brazil with Home Assistant via MQTT"
-url: "your-project-url-here"
+url: "https://github.com/rpr1972/rinnai2mqtt"
 startup: "application"
 image: "robrosa/rinnai2mqtt:multiarch"
 arch:
   - amd64
-  - arm64
+  - aarch64
 host_network: true
 map:
   - config:rw

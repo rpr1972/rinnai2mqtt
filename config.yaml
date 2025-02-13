@@ -27,3 +27,5 @@ schema:
   POLL_INTERVAL: "int"
   LOCK_DEVICE_IN_USE: "bool"
   DEVICE_MAX_TEMP: "int"
+environment:
+  DEVICE_ADDR: "{HA_DEVICE_ADDR}"

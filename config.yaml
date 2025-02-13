@@ -20,13 +20,34 @@ options:
   LOCK_DEVICE_IN_USE: true
   DEVICE_MAX_TEMP: 45
 schema:
-  MQTT_ADDR: "str"
-  MQTT_USER: "str"
-  MQTT_PASS: "str"
-  DEVICE_ADDR: "str"
-  POLL_INTERVAL: "int"
-  LOCK_DEVICE_IN_USE: "bool"
-  DEVICE_MAX_TEMP: "int"
+  MQTT_ADDR:
+    name: "MQTT server address"
+    description: "The address of your MQTT broker"
+    type: "str"
+  MQTT_USER:
+    name: "MQTT username"
+    description: "Username for MQTT broker authentication (optional)"
+    type: "str"
+  MQTT_PASS:
+    name: "MQTT password"
+    description: "Password for MQTT broker authentication (optional)"
+    type: "str"
+  DEVICE_ADDR:
+    name: "Device address"
+    description: "The address of the Rinnai water heater"
+    type: "str"
+  POLL_INTERVAL:
+    name: "Default polling interval"
+    description: "How often the device status should be checked (in seconds)"
+    type: "int"
+  LOCK_DEVICE_IN_USE:
+    name: "Lock device when in use"
+    description: "Whether to lock the device when it's being used"
+    type: "bool"
+  DEVICE_MAX_TEMP:
+    name: "Maximum device temperature"
+    description: "The maximum temperature allowed for the device"
+    type: "int"
 environment:
   MQTT_ADDR: "{{ MQTT_ADDR }}"
   MQTT_USER: "{{ MQTT_USER }}"

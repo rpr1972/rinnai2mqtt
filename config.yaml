@@ -28,10 +28,10 @@ schema:
   lock_device_in_use: "bool"
   device_max_temp: "int"
 environment:
-  MQTT_ADDR: {{ mqtt_addr }}
-  MQTT_USER: {{ mqtt_user }}
-  MQTT_PASS: {{ mqtt_pass }}
-  DEVICE_ADDR: {{ device_address }}
-  POLL_INTERVAL: {{ polling_interval }}
-  LOCK_DEVICE_IN_USE: {{ lock_device_in_use }}
-  DEVICE_MAX_TEMP: {{ device_max_temp }}
+  MQTT_ADDR: "{{ mqtt_addr }}"
+  MQTT_USER: "{{ mqtt_user }}"
+  MQTT_PASS: "{{ mqtt_pass }}"
+  DEVICE_ADDR: "{{ device_address }}"
+  POLL_INTERVAL: "{{ polling_interval }}"
+  LOCK_DEVICE_IN_USE: "{{ lock_device_in_use }}"
+  DEVICE_MAX_TEMP: "{{ device_max_temp }}"

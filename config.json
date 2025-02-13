@@ -16,9 +16,9 @@
   ],
   "options": {
     "MQTT_ADDR": "127.0.0.1",
-    "MQTT_USER": "aaaa",
-    "MQTT_PASS": "bbbb",
-    "DEVICE_ADDR": "127.0.0.1",
+    "MQTT_USER": "",
+    "MQTT_PASS": "",
+    "DEVICE_ADDR": "",
     "POLL_INTERVAL": 30,
     "LOCK_DEVICE_IN_USE": true,
     "DEVICE_MAX_TEMP": 45

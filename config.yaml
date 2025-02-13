@@ -16,7 +16,7 @@ options:
   mqtt_user: ""
   mqtt_pass: ""
   device_address: ""
-  polling_internva: 30
+  polling_interval: 30
   lock_device_in_use: true
   device_max_temp: 45
 schema:
@@ -32,6 +32,6 @@ environment:
   MQTT_USER: "{{ mqtt_user }}"
   MQTT_PASS: "{{ mqtt_pass }}"
   DEVICE_ADDR: "{{ device_address }}"
-  POLL_INTERVAL: "{{ polling_interval }}"
+  POLL_INTERVAL: "!secret polling_interval"
   LOCK_DEVICE_IN_USE: "{{ lock_device_in_use }}"
   DEVICE_MAX_TEMP: "{{ device_max_temp }}"

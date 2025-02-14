@@ -1,3 +1,9 @@
+2.0.6
+
+* Code and repository update to allow the docker image to be installed as an add-on in Home Assistant OS.
+* Created the <VERSION> tag for the docker image, which contains the multiarch version of the application. Using this tag, it can be installed directly 
+  in any of the supported platforms without the need to specify the correct architecture.
+
 2.0.5
 
 * Upgraded Rust version to 1.82.0.

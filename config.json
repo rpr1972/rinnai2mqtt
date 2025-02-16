@@ -5,7 +5,6 @@
   "description": "Integrates Rinnai water heaters produced in Brazil with Home Assistant via MQTT",
   "url": "https://github.com/rpr1972/rinnai2mqtt",
   "startup": "application",
-  "init": false,
   "image": "robrosa/rinnai2mqtt",
   "arch": [
     "amd64",

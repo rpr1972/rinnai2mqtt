@@ -1,9 +1,10 @@
 
 2.0.6
 
-* Code and repository update to allow the docker image to be installed as an add-on in Home Assistant OS.
+* Code and repository update to allow the docker image to be installed as an add-on in HAOS.
 * Created the <VERSION> tag for the docker image, which contains the multiarch version of the application. Using this tag, it can be installed directly 
   in any of the supported platforms without the need to specify the correct architecture.
+* Removed the HEALTHCHECK from the container: it doesn't provide a great benefit and ends up delaying the initialization when running as a HAOS add-on.
 
 2.0.5
 
@@ -107,6 +108,6 @@
 
 1.1.3
 
-* Added HEALTH_CHECK to the container.
+* Added HEALTHCHECK to the container.
 * Sensors that never have zero values (last gas and water use, for example) now report the last valid value instead of zero
   when the API returns error.

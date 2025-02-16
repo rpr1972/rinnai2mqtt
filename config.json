@@ -35,5 +35,8 @@
     "DEVICE_MIN_TEMP": "int",
     "DEVICE_MAX_TEMP": "int",
     "CHECK_UPDATES": "bool"
+  },
+  "environment": {
+    "IS_ADDON": "true"
   }
 }

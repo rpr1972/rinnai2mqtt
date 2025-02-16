@@ -20,9 +20,9 @@
     "MQTT_PASS": "",
     "DEVICE_ADDR": "",
     "POLL_INTERVAL": 30,
-    "LOCK_DEVICE_IN_USE": true,
     "DEVICE_MIN_TEMP": 35,
     "DEVICE_MAX_TEMP": 45,
+    "LOCK_DEVICE_IN_USE": true,
     "CHECK_UPDATES": true
   },
   "schema": {
@@ -31,9 +31,9 @@
     "MQTT_PASS": "str?",
     "DEVICE_ADDR": "str",
     "POLL_INTERVAL": "int",
-    "LOCK_DEVICE_IN_USE": "bool",
     "DEVICE_MIN_TEMP": "int",
     "DEVICE_MAX_TEMP": "int",
+    "LOCK_DEVICE_IN_USE": "bool",
     "CHECK_UPDATES": "bool"
   },
   "environment": {

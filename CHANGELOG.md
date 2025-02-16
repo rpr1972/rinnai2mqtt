@@ -1,5 +1,5 @@
 
-2.0.6
+# 2.0.6
 
 * Code and repository update to allow the docker image to be installed as an add-on in HAOS.
 * Created the <VERSION> tag for the docker image, which contains the multiarch version of the application. Using this tag, it can be installed directly 

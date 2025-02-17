@@ -1,3 +1,7 @@
+## 2.0.7
+
+* Disabled the option to check for updates when running as a HAOS add-on, since HA already manages the updates of add-ons.
+* Minor code refactoring.
 
 ## 2.0.6
 

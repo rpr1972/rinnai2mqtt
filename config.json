@@ -1,6 +1,6 @@
 {
   "name": "Rinnai2MQTT",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "slug": "rinnai2mqtt",
   "description": "Integrates Rinnai water heaters produced in Brazil with Home Assistant via MQTT",
   "url": "https://github.com/rpr1972/rinnai2mqtt",
@@ -22,8 +22,7 @@
     "POLL_INTERVAL": 30,
     "DEVICE_MIN_TEMP": 35,
     "DEVICE_MAX_TEMP": 45,
-    "LOCK_DEVICE_IN_USE": true,
-    "CHECK_UPDATES": true
+    "LOCK_DEVICE_IN_USE": true
   },
   "schema": {
     "MQTT_ADDR": "str",
@@ -33,8 +32,7 @@
     "POLL_INTERVAL": "int",
     "DEVICE_MIN_TEMP": "int",
     "DEVICE_MAX_TEMP": "int",
-    "LOCK_DEVICE_IN_USE": "bool",
-    "CHECK_UPDATES": "bool"
+    "LOCK_DEVICE_IN_USE": "bool"
   },
   "environment": {
     "IS_ADDON": "true"

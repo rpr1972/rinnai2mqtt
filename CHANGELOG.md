@@ -1,3 +1,7 @@
+## 2.0.8
+
+* Small change in the script that starts the application inside the container, to avoid warnings about CHECK_UPDATES in HAOS logs (when running the container as an add-on).
+
 ## 2.0.7
 
 * Disabled the option to check for updates when running as a HAOS add-on, since HA already manages the updates of add-ons.
@@ -6,8 +10,7 @@
 ## 2.0.6
 
 * Code and repository update to allow the docker image to be installed as an add-on in HAOS.
-* Created the <VERSION> tag for the docker image, which contains the multiarch version of the application. Using this tag, it can be installed directly 
-  in any of the supported platforms without the need to specify the correct architecture.
+* Created the <VERSION> tag for the docker image, which contains the multiarch version of the application. Using this tag, it can be installed directly in any of the supported platforms without the need to specify the correct architecture.
 * Removed the HEALTHCHECK from the container: it doesn't provide a great benefit and ends up delaying the initialization when running as a HAOS add-on.
 
 ## 2.0.5

@@ -1,6 +1,6 @@
 {
   "name": "Rinnai2MQTT",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "slug": "rinnai2mqtt",
   "description": "Integrates Rinnai water heaters produced in Brazil with Home Assistant via MQTT",
   "url": "https://github.com/rpr1972/rinnai2mqtt",

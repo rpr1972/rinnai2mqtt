@@ -51,7 +51,7 @@ See more about the database mapping below, on the comments about the new sensors
 
 As seen in the screenshot below, this integration creates some sensors:
 
-![screenshot](https://github.com/rpr1972/rinnai2mqtt/blob/main/images/img1.png)
+![screenshot](https://raw.githubusercontent.com/rpr1972/rinnai2mqtt/main/images/img1.png)
 
 They're all reported by the device itself and are pretty self explanatory, but some clarification is needed: 
 
@@ -73,7 +73,7 @@ These cumulative data are stored in a database in order to preserve them across 
 
 The picture below shows the thermostat entity created by Home Assistant for this device:
 
-![thermostat](https://github.com/rpr1972/rinnai2mqtt/blob/main/images/img2.png)
+![thermostat](https://raw.githubusercontent.com/rpr1972/rinnai2mqtt/main/images/img2.png)
 
 
 As said in the beginning of this description, this integration was tested in a subset of models called "Digital line". As far as I know, devices of this line of products have a temperature range going from 35 °C to 60 °C. And again: since this range is too broad for people in Brazil (even the ones living in the South, like me), the default range was set to 35 °C - 45 °C. These values can be overridden through the "**DEVICE_XXX_TEMP**" variables described above.

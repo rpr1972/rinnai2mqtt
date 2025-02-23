@@ -1,3 +1,4 @@
+![Project Logo](https://raw.githubusercontent.com/rpr1972/rinnai2mqtt/main/logo.png)
 # Rinnai tankless water heater integration with Home Assistant
 
 The purpose of this image is to provide an MQTT integration for Rinnai tankless water heaters in Home Assistant. Be aware that not all Rinnai tankless water heaters are supported - they must have some kind of "Wi-Fi module" attached. Besides that, this software was tested in a subset of models available - precisely the models of the so called "Digital Line": E17, E21, E27 and E33. These models are all **made in Brazil**, so it is very likely that this integration only works with devices made in Brazil.

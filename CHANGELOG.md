@@ -1,3 +1,9 @@
+## 2.0.9
+
+* Upgraded Rust version to 1.95.0.
+* Added a timeout to the code that reads from the water heater, to deal with the way the Wi-Fi module ROU0031 behaves (it does not timeout an HTTP operation).
+* Minor code refactoring.
+
 ## 2.0.8
 
 * Small change in the script that starts the application inside the container, to avoid warnings about CHECK_UPDATES in HAOS logs (when running the container as an add-on).
